@@ -9,3 +9,6 @@ for tweet in tweets["tweets"] :
   tweets_list.append( {"tweet" : tweet['text']})
 df = pd.DataFrame(tweets_list)
 df.head()
+
+
+#please run it in a notebook rather than python file
